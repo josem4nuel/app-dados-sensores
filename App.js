@@ -1,4 +1,4 @@
-import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Chart as ChartJS
 
@@ -49,6 +49,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
       <Text style={styles.title}>Gráfico Combinado</Text>
       <Line data={data} options={options} />
     </View>
@@ -61,10 +63,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 20,
   },
 });
