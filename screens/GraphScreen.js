@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { Line } from 'react-chartjs-2';
-import 'chart.js/auto'; // Certifique-se de importar o 'chart.js/auto' para registrar todos os componentes do gráfico.
+import { View, Text, StyleSheet, Picker } from 'react-native';
+import { Line, Bar } from 'react-chartjs-2';
+import 'chart.js/auto';
 
 export default function GraphScreen({ route }) {
   const [sensorData, setSensorData] = useState([]);
