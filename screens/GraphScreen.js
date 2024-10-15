@@ -122,5 +122,5 @@ export default function GraphScreen({ route }) {
     container: { flex: 1, justifyContent: 'flex-start', alignItems: 'flex-end', padding: 20 },
     title: { fontSize: 18, marginBottom: 10 },
     picker: { height: 40, width: 150, marginBottom: 20, borderColor: '#ccc', borderWidth: 1, borderRadius: 5 },
-    pickerItem: { height: 40 },
+    pickerItem: { height: 41 },
   });
